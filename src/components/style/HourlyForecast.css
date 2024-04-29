@@ -1,0 +1,38 @@
+/* HourlyForecast.css */
+.hourly-forecast {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  align-items: center; 
+  justify-content: space-between;
+  background-color: #f4e6dce3;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+  overflow: auto;
+ 
+  max-width: 600px;
+ 
+
+  }
+  
+  /* Style for each hour block */
+  .hour-block {
+    flex: 0 0 auto; /* Do not grow, do not shrink, basis auto */
+    text-align: center;
+    margin: 0 10px; /* Add margin between hour blocks */
+    min-width: 100px; /* Minimum width for each hour block */
+    
+  }
+
+.hourly-temp{
+  background-color: #ccdbf1e3;
+  flex: 1 1 100px; 
+  text-align: center;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.239);
+  
+  
+}
